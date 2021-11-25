@@ -85,7 +85,7 @@
               <ul>
                 <li><a href="https://www.linkedin.com/in/muhamad-zordi-a-395027133/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                 <li><a href="https://www.facebook.com/zordi.akhbar/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="https://wa.me/085717454705" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="https://wa.me/+6285717454705" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
               </ul>
             </div>
 <div class="header-buttons">
@@ -596,7 +596,52 @@
                       <div  class="map">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.123076661299!2d106.6571183143645!3d-6.631632666671535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMzcnNTMuOSJTIDEwNsKwMzknMzMuNSJF!5e0!3m2!1sid!2sid!4v1636487566181!5m2!1sid!2sid" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                       </div>
-                      
+                      <div class="block-title">
+                        <h3>How Can I <span>Help You?</span></h3>
+                      </div>
+
+                      <form id="contact_form" class="contact-form" action="https://formspree.io/f/mdobnawy" method="post">
+
+                        <div class="messages"></div>
+
+                        <div class="controls two-columns">
+                          <div class="fields clearfix">
+                            <div class="left-column">
+                              <div class="form-group form-group-with-icon">
+                                <input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
+                                <label>Email Address</label>
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                              </div>
+                              <div class="form-group form-group-with-icon">
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required" data-error="Name is required.">
+                                <label>Full Name</label>
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                              </div>
+
+                              <div class="form-group form-group-with-icon">
+                                <input id="form_subject" type="text" name="subject" class="form-control" placeholder="" required="required" data-error="Subject is required.">
+                                <label>Subject</label>
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                              </div>
+                            </div>
+                            <div class="right-column">
+                              <div class="form-group form-group-with-icon">
+                                <textarea id="form_message" name="message" class="form-control" placeholder="" rows="7" required="required" data-error="Please, leave me a message."></textarea>
+                                <label>Message</label>
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                              </div>
+                            </div>
+                          </div>
+
+                          
+      
+                          <input type="submit" class="button btn-send" value="Send message">
+                        </div>
+                      </form>
 
                       
                     </div>
